@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Antipasto Pro';
+    src: local('Antipasto Pro Thin'), local('Antipasto-Pro-Thin'),
+        url('AntipastoPro-Thin.woff2') format('woff2'),
+        url('AntipastoPro-Thin.woff') format('woff'),
+        url('AntipastoPro-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+  }
