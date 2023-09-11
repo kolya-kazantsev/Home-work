@@ -1,0 +1,112 @@
+body {
+    overflow-x: hidden;
+}
+
+.container {
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.button {
+    background-color: #00EF18;
+    padding: 10px 20px;
+    border-radius: 29px;
+    font-weight: 800;
+}
+
+.hero {
+    background-image: url("../images/dark-grunge-texture-05 1.png");
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 70px;
+}
+
+.header__nav-link.button {
+    background-color: #00EF18;
+    padding: 10px 20px;
+    font-weight: 800;
+}
+
+
+.header {
+    padding: 30px 0;
+}
+
+.header__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__nav-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__nav-link {
+    padding: 0px 35px;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.header__nav-link:hover {
+    text-decoration: underline;
+}
+
+/*=================================================*/
+
+.hero__body {
+    padding-top: 145px;
+}
+
+
+.hero__container {
+    position: relative;
+}
+
+.hero__container::before {
+    width: 1000px;
+    height: 1000px;
+    position: absolute;
+    content: '';
+    top: -50%;
+    right: -15%;
+    background-image: url("../images/stroitel.png");
+    background-size: cover;
+    background-position: center;
+    pointer-events: none;
+    z-index: -1;
+}
+
+
+
+.hero__body-title {
+    color: #2B2B2B;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    max-width: 700px;
+    font-family: Bebas Neue, sans-serif;
+    text-transform: uppercase;
+}
+
+.hero__body-text {
+    max-width: 300px;
+    color: #2B2B2B;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 133.9%; /* 26.78px */
+    margin-top: 47px;
+    margin-bottom: 55px;
+}
+
+.hero__row {
+    padding-top: 120px;
+}
+
+.hero__row-container {
+    display: flex;
+    justify-content: space-between ;
+}
